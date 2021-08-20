@@ -1,5 +1,5 @@
 package jpabook.jpashop.domain;
 
 public enum DeliveryStatus {
-    CANCEL,COMP,
+    CANCEL,COMP,READY
 }

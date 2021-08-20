@@ -30,6 +30,7 @@ public class Orderitem {
         orderitem.setItem(item);
         orderitem.setOrderPrice(orderPrice);
         orderitem.setCount(count);
+        item.removeStock(count);
         return orderitem;
     }
 
